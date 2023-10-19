@@ -1,0 +1,51 @@
+
+.task{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 0.75rem;
+
+    border-radius: 8px;
+    border: 1px solid var(--Gray-400, #333);
+    background: var(--Gray-500, #262626);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.task button{
+    background-color: var(--Gray-500, #262626);
+    border: none;
+    color: var(--Gray-300)
+}
+
+.radio_button_container button:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.delete_task_button_container{
+    margin-left: auto;
+}
+
+.delete_task_button_container button:hover{
+    cursor: pointer;
+    color: var(--danger);
+}
+
+.text_container{
+    color: var(--Gray-100, #F2F2F2);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+
+.strikethrough_text_container{
+    color: var(--Gray-300, #808080);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    text-decoration-line: line-through;
+}
+

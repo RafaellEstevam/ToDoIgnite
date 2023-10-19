@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+.info_header_container span{
+    border-radius: 999px;
+    background: var(--Gray-400, #333);
+
+    color: var(--Gray-200, #D9D9D9) !important;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 2px 8px;
+}
+
+.info_header_container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.info_header_container strong{
+    white-space: nowrap;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.created_tasks{
+    color: var(--Blue, #4EA8DE);  
+}
+
+.completed_tasks{
+    color: var(--Purple, #8284FA);
+}

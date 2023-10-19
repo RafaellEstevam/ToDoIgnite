@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-700);
+    padding: 4.5rem 0 5rem 0;
+}
+
+.header img{
+    width: 22px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.header strong{
+    color: var(--Blue, #4EA8DE);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.header span{
+    color: var(--PurpleDark, #5E60CE);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
